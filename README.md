@@ -38,6 +38,11 @@ The states have been defined as follows  :
 - S2 = 10 (Signal1_light is RED Signal2_light is GREEN)
 - S3 = 11 (Signal1_light is RED Signal2_light is YELLOW)
 
+
+## Tools used 
+- Icarus Verilog (files have been attached)
+- Can also be done in EDA playground ( https://edaplayground.com/x/d2sT)
+
 ## Results and Waveforms 
 ### Console output 
 <img width="1272" height="611" alt="image" src="https://github.com/user-attachments/assets/2f10d9a5-cbcf-407e-ad63-1bf222f9e560" />
@@ -61,5 +66,6 @@ From the waveforms, the following can be analyzed :
 - Implement adaptive timing using traffic sensors.
 - Extend to multi-lane or four-way intersections.
 - Deploy on FPGA hardware for real-time demonstration.
-- Integrate with IoT or AI systems for smart city applications.
+- Integrate with IoT or AI systems for smart city applications
 
+ 
