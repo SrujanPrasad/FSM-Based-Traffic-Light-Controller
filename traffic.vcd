@@ -1,0 +1,408 @@
+$date
+	Tue Sep 09 10:30:13 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module traffic_tb $end
+$var wire 3 ! signal2_light [2:0] $end
+$var wire 3 " signal1_light [2:0] $end
+$var reg 1 # clk $end
+$var reg 1 $ rst $end
+$scope module DUT $end
+$var wire 1 # clk $end
+$var wire 1 $ rst $end
+$var wire 4 % duration [3:0] $end
+$var parameter 2 & S0 $end
+$var parameter 2 ' S1 $end
+$var parameter 2 ( S2 $end
+$var parameter 2 ) S3 $end
+$var parameter 3 * greenlight $end
+$var parameter 3 + redlight $end
+$var parameter 32 , state1 $end
+$var parameter 32 - state2 $end
+$var parameter 32 . state3 $end
+$var parameter 32 / state4 $end
+$var parameter 3 0 yellowlight $end
+$var reg 4 1 count [3:0] $end
+$var reg 2 2 next_state [1:0] $end
+$var reg 3 3 signal1_light [2:0] $end
+$var reg 3 4 signal2_light [2:0] $end
+$var reg 2 5 state [1:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b10 0
+b10 /
+b101 .
+b10 -
+b101 ,
+b100 +
+b1 *
+b11 )
+b10 (
+b1 '
+b0 &
+$end
+#0
+$dumpvars
+b0 5
+b100 4
+b1 3
+b0 2
+b1 1
+b101 %
+1$
+1#
+b1 "
+b100 !
+$end
+#5
+0#
+#10
+1#
+#15
+0#
+#20
+b10 1
+1#
+0$
+#25
+0#
+#30
+b11 1
+1#
+#35
+0#
+#40
+b100 1
+1#
+#45
+0#
+#50
+b10 %
+b10 "
+b10 3
+b1 2
+b0 1
+b1 5
+1#
+#55
+0#
+#60
+b1 1
+1#
+#65
+0#
+#70
+b101 %
+b1 !
+b1 4
+b100 "
+b100 3
+b10 2
+b0 1
+b10 5
+1#
+#75
+0#
+#80
+b1 1
+1#
+#85
+0#
+#90
+b10 1
+1#
+#95
+0#
+#100
+b11 1
+1#
+#105
+0#
+#110
+b100 1
+1#
+#115
+0#
+#120
+b10 %
+b10 !
+b10 4
+b11 2
+b0 1
+b11 5
+1#
+#125
+0#
+#130
+b1 1
+1#
+#135
+0#
+#140
+b101 %
+b100 !
+b100 4
+b1 "
+b1 3
+b0 2
+b0 1
+b0 5
+1#
+#145
+0#
+#150
+b1 1
+1#
+#155
+0#
+#160
+b10 1
+1#
+#165
+0#
+#170
+b11 1
+1#
+#175
+0#
+#180
+b100 1
+1#
+#185
+0#
+#190
+b10 %
+b10 "
+b10 3
+b1 2
+b0 1
+b1 5
+1#
+#195
+0#
+#200
+b1 1
+1#
+#205
+0#
+#210
+b101 %
+b1 !
+b1 4
+b100 "
+b100 3
+b10 2
+b0 1
+b10 5
+1#
+#215
+0#
+#220
+b1 1
+1#
+#225
+0#
+#230
+b10 1
+1#
+#235
+0#
+#240
+b11 1
+1#
+#245
+0#
+#250
+b100 1
+1#
+#255
+0#
+#260
+b10 %
+b10 !
+b10 4
+b11 2
+b0 1
+b11 5
+1#
+#265
+0#
+#270
+b1 1
+1#
+#275
+0#
+#280
+b101 %
+b100 !
+b100 4
+b1 "
+b1 3
+b0 2
+b0 1
+b0 5
+1#
+#285
+0#
+#290
+b1 1
+1#
+#295
+0#
+#300
+b10 1
+1#
+#305
+0#
+#310
+b11 1
+1#
+#315
+0#
+#320
+b100 1
+1#
+#325
+0#
+#330
+b10 %
+b10 "
+b10 3
+b1 2
+b0 1
+b1 5
+1#
+#335
+0#
+#340
+b1 1
+1#
+#345
+0#
+#350
+b101 %
+b1 !
+b1 4
+b100 "
+b100 3
+b10 2
+b0 1
+b10 5
+1#
+#355
+0#
+#360
+b1 1
+1#
+#365
+0#
+#370
+b10 1
+1#
+#375
+0#
+#380
+b11 1
+1#
+#385
+0#
+#390
+b100 1
+1#
+#395
+0#
+#400
+b10 %
+b10 !
+b10 4
+b11 2
+b0 1
+b11 5
+1#
+#405
+0#
+#410
+b1 1
+1#
+#415
+0#
+#420
+b101 %
+b100 !
+b100 4
+b1 "
+b1 3
+b0 2
+b0 1
+b0 5
+1#
+#425
+0#
+#430
+b1 1
+1#
+#435
+0#
+#440
+b10 1
+1#
+#445
+0#
+#450
+b11 1
+1#
+#455
+0#
+#460
+b100 1
+1#
+#465
+0#
+#470
+b10 %
+b10 "
+b10 3
+b1 2
+b0 1
+b1 5
+1#
+#475
+0#
+#480
+b1 1
+1#
+#485
+0#
+#490
+b101 %
+b1 !
+b1 4
+b100 "
+b100 3
+b10 2
+b0 1
+b10 5
+1#
+#495
+0#
+#500
+b1 1
+1#
+#505
+0#
+#510
+b10 1
+1#
+#515
+0#
+#520
+b11 1
+1#
