@@ -40,7 +40,7 @@ The states have been defined as follows  :
 
 
 ## Tools used 
-- Icarus Verilog (files have been attached)
+- Icarus Verilog ([traffic.v](https://github.com/SrujanPrasad/FSM-Based-Traffic-Light-Controller/blob/24a64156013fafcc92a9dddc529063c2ecb37ff8/traffic.v))([traffic_tb.v](https://github.com/SrujanPrasad/FSM-Based-Traffic-Light-Controller/blob/24a64156013fafcc92a9dddc529063c2ecb37ff8/traffic_tb.v))
 - Can also be done in EDA playground ( https://edaplayground.com/x/d2sT)
 
 ## Results and Waveforms 
